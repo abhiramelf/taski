@@ -36,7 +36,6 @@ To get started with Taski, follow these steps:
 Once the development server is running, you can:
 
 - View the task list on the main page
-- Use the navbar to navigate (if implemented)
 - Add new tasks via the interface
 
 ## Development

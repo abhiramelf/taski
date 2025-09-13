@@ -64,6 +64,34 @@ main header h1 {
 
 .subtitle {
   color: #8D9CB8;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
+}
+
+.no-task {
+  margin: 20vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+
+.no-task-desc {
+  color: #8D9CB8;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.no-task-btn {
+  margin-top: 20px;
+  background-color: rgb(0, 127, 255, 0.1);
+  color: #007FFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
 }
