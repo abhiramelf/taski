@@ -23,6 +23,7 @@ h1, p {
   padding: 1rem;
 }
 
+/* Navbar styles */
 nav {
   display: flex;
   align-items: center;
@@ -37,10 +38,10 @@ nav {
 .github-logo {
   height: 24px;
   width: 24px;
+  cursor: pointer;
 }
 
 .github-logo:hover {
-  cursor: pointer;
   opacity: 0.6;
   transition: opacity 0.2s ease;
 }
@@ -49,6 +50,7 @@ nav {
   transform: scale(0.95);
 }
 
+/* Main content styles */
 main header {
   margin-top: 20px;
 }
@@ -68,6 +70,7 @@ main header h1 {
   font-weight: 400;
 }
 
+/* No task styles */
 .no-task {
   margin: 20vh auto;
   display: flex;
@@ -84,14 +87,86 @@ main header h1 {
   margin-top: 20px;
 }
 
-.no-task-btn {
+/* Task input styles */
+.task-info {
+  display: flex;
+  align-items: center;
   margin-top: 20px;
-  background-color: rgb(0, 127, 255, 0.1);
-  color: #007FFF;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 18px;
-  font-weight: 600;
+}
+
+.add-task-btn {
+  margin-right: 10px;
+}
+
+.add-task-btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
   cursor: pointer;
+}
+
+.task-input {
+  font-family: Urbanist, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  background-color: #FFFFFF;
+  color: #8D9CB8;
+  margin-right: 10px;
+}
+
+.task-input::placeholder {
+  color: #8D9CB8;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.task-input:focus {
+  outline: none;
+  cursor: text;
+  color: #3F3D56;
+}
+
+.task-note-icon {
+  margin-right: 10px;
+}
+
+.task-info-input {
+  font-family: Urbanist, sans-serif;
+  font-size: 14px;
+  flex: 1;
+  padding: 10px;
+  border: 0;
+  background-color: #FFFFFF;
+  color: #8D9CB8;
+  margin-right: 10px;
+}
+
+.task-info-input::placeholder {
+  color: #8D9CB8;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.task-info-input:focus {
+  outline: none;
+  cursor: text;
+}
+
+.task-esc-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.task-close-icon {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.task-close-icon:hover {
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
 }
